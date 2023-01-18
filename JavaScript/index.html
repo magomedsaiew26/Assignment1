@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!--Header-->
+    <div id="header">
+        <div class="header-box">
+          <h3>The Computer Store</h1><br>
+        </div>
+    <!--Banker name-->
+    <p>Joe Banker</p><br>
+    <div class="loan">
+        
+            <label>Balance: </label>
+        <input type="number" id="bank-balance" value = "0", min="0" step="1" required><br>
+            <label>Outstanding Loan:</label><br>
+            <input type="number" id="outstanding-loan" value = "0", min="0" step="1" required><br>
+    <div>
+    <button id="loan-btn">Get a loan</button>
+    <button id="repay-btn">Repay loan</button>
+    </div>
+    </div>
+    <div class="loan">
+  <button id="work-btn">Work</button>
+        <label id="wallet-account">Pay: </label>
+        <button id="transfer-btn">Bank</button>
+    </div>
+    <div id="balance-output">
+         <p id="bank"></p>
+    </div>
+    <div class="loan">
+        <p>Laptops</p>
+           <label id = "computers"></label>
+          <div class="dropdown">
+            <!--Dropdown-->
+            <button class="dropdown-btn">Select a Computer</button>
+            <div class="dropdown-content">
+                <select id="computer-select"></select>
+            </div>
+         </div>
+      </div>
+      <div class="loan">
+        <p>Info</p>
+          <img id="computer-img" alt="Picture not available" height = 100 width = 100></img><br>
+          <label id = "computer-name"></label><br>
+          <label id = "computer-description"></label><br>
+          <label id = "computer-price"></label><br>
+          <button id="buy-btn">Buy Now</button>
+        </div>
+   <script src="app.js"></script>
+
+  <script>
+   
+
+</script>
+</body>
+</html>
+
+
